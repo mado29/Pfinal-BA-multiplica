@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0be68a;
+    color: #09a180;
+    text-align: center;
+    display: flex; /* Para alinear elementos uno al lado del otro */
+    align-items: center; /* Para alinear verticalmente en el centro */
+    padding: 10px;
+}
+
+header img {
+    max-width: 10px; /* Tamaño máximo de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y los botones */
+}
+
+header button {
+    background-color: #07beaf; /* Color de fondo del botón */
+    color: #07b18c; /* Color de texto del botón */
+    border: none; /* Quita el borde del botón */
+    padding: 10px 20px; /* Relleno del botón */
+    margin-right: 10px; /* Espacio entre los botones */
+    cursor: pointer;
+}
+
+.text-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    break-before: left;
+}
+
+.video {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    break-after: right;
+}    
+
+.container {
+    display: flex;
+}
+
+.text-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.text-box img {
+    max-width: 30%;
+    height: 20px;
+}
+.container {
+    display: flex;
+}
+
+.text-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.text-box img {
+    max-width: 30%;
+    height: 20px;
+}
+.container {
+    display: flex;
+}
+
+.text-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.text-box img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.location,
+.contact,
+.creator {
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 5px 0;
+}
