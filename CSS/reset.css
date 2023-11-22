@@ -1,18 +1,14 @@
-<<<<<<< HEAD
-/*Resest CSS*/
 html, body, div, h1, h2, h3, h4,
-h5, h6, p, blockquote, pre, a
-abbr, address, cite, code, em
+h5, h6, p, blockquote, pre, a,
+abbr, address, cite, code, em,
 img, small, strong, sub, sup, ol, ul,
 li, fieldset, form, label, legend, table,
-caption,tbody, thead, tr, th,
-td, article, aside, figure, footer, header
-hgroup, menu, nav,
-section { 
+caption, tbody, thead, tr, th,
+td, article, aside, figure, footer, header,
+hgroup, menu, nav, section { 
     margin: 0;
     padding: 0;
     border: 0;
-    outline: 0;
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -38,79 +34,23 @@ blockquote, q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q::after{
-    content: ´´;
+blockquote:before, blockquote:after, q:before, q::after {
+    content: '';
     content: none;
 }
 
-table{
+table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 input,
 textarea,
 button {
     border: 1px solid #ccc;
-=======
-/*Resest CSS*/
-html, body, div, h1, h2, h3, h4,
-h5, h6, p, blockquote, pre, a
-abbr, address, cite, code, em
-img, small, strong, sub, sup, ol, ul,
-li, fieldset, form, label, legend, table,
-caption,tbody, thead, tr, th,
-td, article, aside, figure, footer, header
-hgroup, menu, nav,
-section { 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-blockquote, q {
-    quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q::after{
-    content: ´´;
-    content: none;
-}
-
-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-input,
-textarea,
-button {
-    border: 1px solid #ccc;
->>>>>>> 02b854660b0c1048f94800aa9f773cc5bfc20bbd
 }
